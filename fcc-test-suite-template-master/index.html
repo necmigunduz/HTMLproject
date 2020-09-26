@@ -14,22 +14,22 @@
       <form action="", id='survey-form'>
         <div>
           <label for="name">Name</label><br>
-          <input type="text", id="name", placeholder="enter your name here please">
+          <input class="large", type="text", id="name", placeholder="enter your name here please">
         </div>
 
         <div>
           <label for="email">Email</label><br>
-          <input type="email", id='email', placeholder="enter your email">
+          <input class="large", type="email", id='email', placeholder="enter your email">
         </div>
 
         <div>
           <label for="age">Age(optional)</label><br>
-          <input type="number", id='age'>
+          <input class="large", type="number", id='age'>
         </div>
 
         <div>
           <label for="dropdown">Which option best describes your current role?</label><br>
-          <select name="roles" id="dropdown">
+          <select class="large", name="roles" id="dropdown">
             <option value="", disabled selected>Select current role</option>
             <option value="">Student</option>
             <option value="">Fulltime Worker</option>
@@ -40,7 +40,7 @@
 
 
         <div>
-          <label >Would you recommend freeCodeCamp to a friend?</label><br>
+          <label>Would you recommend freeCodeCamp to a friend?</label><br>
             <input type="radio" id="definitely" name="option" value="">
             <label for="definitely">Definitely</label><br>
             <input type="radio" id="maybe" name="option" value="">
@@ -51,7 +51,7 @@
 
         <div>
           <label for="dropdown">What is your favorite feature of freeCodeCamp?</label><br>
-          <select name="roles" id="best">
+          <select class="large", name="roles" id="best">
             <option value="", disabled selected>Select option</option>
             <option value="">Challenges</option>
             <option value="">Projects</option>
@@ -62,7 +62,7 @@
 
         <div>
           <label> What would you like to see improved? (Check all that apply)</label><br>
-            <input type="checkbox" id="fromt " name="" value="">
+            <input type="checkbox" id="front " name="" value="">
             <label for="front"> Front-end Projects</label><br>
             <input type="checkbox" id="back" name="" value="">
             <label for="back"> Back-end Projects</label><br>
@@ -87,10 +87,10 @@
 
         <div>
           <label for='comment'>Any comments or suggestions? </label><br>
-          <input type="text-area", id='comment', placeholder="enter your comments here">
+          <input class="large", type="text-area", id='comment', placeholder="enter your comments here">
         </div>
 
-        <button type="submit">Submit</button>
+        <button class="large", id="submit", type="submit">Submit</button>
         </form>
     </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
